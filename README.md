@@ -1,6 +1,6 @@
 # Vanishing-Point-Detector
 
-Dependencies: OpenCV and Aramdillo
+Dependencies: OpenCV and Armadillo
 
 #Procedure
 -The algorithm starts by computing dx and dy of the image.
@@ -18,11 +18,18 @@ either ends are stored.
 
 -These co-efficients (a, b, c) are stored in the matrix A, B in the
 following format:
+
   A = [a1 b1
+  
        a2 b2
+  
         ..
+  
         ..
+  
        an bn]
+  
+  
   
   B = [c1 c2 ... cn ]'
 
@@ -31,7 +38,8 @@ square approximation of the answer. Where X = [x y] T
 
 -For each pair of lines in the matrix A, their point of intersection
 X’ = [x y] T is found. This is multiplied with the matrix A and
-then B is subtracted to get the error vector E
+then B is subtracted to get the error vector E.
+
 E = AX’ – B
 
 -The squared sum of error vector is computed and whichever
