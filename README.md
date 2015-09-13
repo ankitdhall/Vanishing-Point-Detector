@@ -19,19 +19,15 @@ either ends are stored.
 -These co-efficients (a, b, c) are stored in the matrix A, B in the
 following format:
 
-  A = [a1 b1
-  
-       a2 b2
-  
-        ..
-  
-        ..
-  
-       an bn]
+     A = [a1 b1
+          a2 b2
+            ..
+            ..
+         an bn]
   
   
   
-  B = [c1 c2 ... cn ]'
+    B = [c1 c2 ... cn ]'
 
 -Solve for vector X in AX = B with the concept of least
 square approximation of the answer. Where X = [x y] T
@@ -40,7 +36,7 @@ square approximation of the answer. Where X = [x y] T
 X’ = [x y] T is found. This is multiplied with the matrix A and
 then B is subtracted to get the error vector E.
 
-E = AX’ – B
+    E = AX’ – B
 
 -The squared sum of error vector is computed and whichever
 X’ gave the least summation of errors is chosen as the
