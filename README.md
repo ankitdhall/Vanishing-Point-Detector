@@ -1,12 +1,29 @@
-# Vanishing-Point-Detector
+# Vanishing Point Detection using Least Squares
 
 ![](https://cloud.githubusercontent.com/assets/8938083/9835917/7c594192-5a1f-11e5-986f-5877b56e1fe6.png)  
 
-Detector on sample footage. Red colored lines were considered for estimating the vanishing point. The black circle marks the region of interest, where the center of the circle is the approximate vanishing point.
+Detector on sample footage.  
+Red colored lines were considered for estimating the vanishing point. The black circle marks the region of interest, where the center of the circle is the approximate vanishing point.
 
+1. [Dependencies](#dependencies)
+2. [Speed](#speed)
+3. [Algorithm](#algorithm)  
+
+
+### Citing `Vanishing-Point-Detector`
+Please cite our work if `Vanishing-Point-Detector` and our approach helps your research.  
+
+```
+@Misc{Vanishing-Point-Detector,
+  author = {{Dhall*}, A. and {Chandak*} Y.}
+  title = "{Vanishing Point Detection using Least Squares}",
+  howpublished = {\url{https://github.com/ankitdhall/Vanishing-Point-Detector}},
+  year = {2015}
+}
 
 ## Dependencies
-OpenCV and Armadillo
+*OpenCV for C++
+*Armadillo
 
 ## Speed
 Average performance: 21 fps
