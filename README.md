@@ -20,6 +20,7 @@ Please cite our work if `Vanishing-Point-Detector` and our approach helps your r
   howpublished = {\url{https://github.com/ankitdhall/Vanishing-Point-Detector}},
   year = {2015}
 }
+```
 
 ## Dependencies
 *OpenCV for C++
