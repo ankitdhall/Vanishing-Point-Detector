@@ -23,8 +23,8 @@ Please cite our work if `Vanishing-Point-Detector` and our approach helps your r
 ```
 
 ## Dependencies
-*OpenCV for C++
-*Armadillo
+* OpenCV for C++
+* Armadillo
 
 ## Speed
 Average performance: 21 fps
